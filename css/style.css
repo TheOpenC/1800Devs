@@ -1,0 +1,174 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: "Helvetica", "Open Sans";
+     font-weight: 400;
+     line-height: 1.6;
+     font-size: 18px;
+     background: hsl(237, 57%, 37%)
+}
+
+h1 {
+     line-height: 1.1;
+     
+     font-size: 6rem;
+     font-weight: 800;
+     color: hsl(50, 53%, 63%);
+     filter:drop-shadow(8px 10px 10px black);
+     filter: blur(2px);
+     padding: -1rem;
+     transform: scalex(.95)
+               scaley(1.1);
+     letter-spacing: -.12rem;
+     -webkit-text-stroke: 3px rgb(21, 20, 20);
+          
+          filter:
+               drop-shadow(5px 12px 5px black)
+               blur(2px);
+          text-shadow: 
+               3px 3px 0 #000;
+       
+          
+}
+
+h2{
+     font-size: 2.488rem;
+}
+h2.landing{
+     font-size: 5.653rem;
+     font-weight: bold;
+     filter:drop-shadow(5px 12px 5px black)
+}
+
+h3{
+     font-size: 2.074rem;
+}
+h3.landing{
+     font-size: 3.998rem;
+     font-weight: 800;
+     color: white;
+     filter:drop-shadow(5px 6px 2px black);
+     letter-spacing: .15rem;
+     
+       -webkit-text-stroke: 2px black;
+          
+      
+          filter:
+               drop-shadow(5px 5px 5px black)
+               blur(2px);
+          text-shadow: 
+               3px 3px 0 #000;     
+
+}
+
+h4{
+     font-size: 1.728rem;
+}
+h4.landing{
+     font-size: 2.827rem;
+     font-weight: bold;
+     filter:drop-shadow(5px 12px 5px black);
+     
+}
+
+h5{
+     font-size: 1.44rem;
+}
+
+h5.landing {
+     line-height: 1.35;
+     font-size: 1.99rem;
+     font-weight: 800;
+     color: white;
+     filter:drop-shadow(5px 6px 2px black);
+     letter-spacing: .15rem;
+     
+       -webkit-text-stroke: 2px black;
+          
+      
+          filter:
+               drop-shadow(5px 5px 5px black)
+               blur(2px);
+          text-shadow: 
+               3px 3px 0 #000;     
+
+
+}
+
+h6{
+     font-size: 1.2rem;
+}
+h6.landing{
+     font-size: 1.414rem;
+     font-weight: bold;
+}
+
+p{
+     font-size: 1rem
+}
+
+.small{
+     font-size: .833rem;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header,footer {
+     
+}
+
+main, .bottom {
+
+}
+
+main{
+     text-align: center;
+     padding-top: 5%;
+     font-family: "Inter", "Open Sans","Helvetica";
+}
+section {
+    
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media all and (max-width: 1000px) {
+     section {
+         
+     }
+     .bottom {
+         
+     }
+}
+
+@media (min-width: 601px) and (max-width: 1500px){
+     section{
+          
+     } 
+     
+}
