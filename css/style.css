@@ -56,9 +56,23 @@ h2{
      font-size: 2.488rem;
 }
 h2.landing{
-     font-size: 5.653rem;
-     font-weight: bold;
-     filter:drop-shadow(5px 12px 5px black)
+     font-size: 4.653rem;
+     line-height: 1.1;
+     font-weight: 800;
+     color: hsl(50, 53%, 63%);
+     filter:drop-shadow(8px 10px 10px black);
+     filter: blur(2px);
+     padding: -1rem;
+     transform: scalex(.95)
+               scaley(.8);
+     letter-spacing: -.12rem;
+     -webkit-text-stroke: 3px rgb(21, 20, 20);
+          
+          filter:
+               drop-shadow(5px 12px 5px black)
+               blur(2px);
+          text-shadow: 
+               3px 3px 0 #000;
 }
 
 h3{
